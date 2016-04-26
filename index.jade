@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title Keycode Master
+        link(rel="stylesheet", href="style.css")
+    body
+        header
+            .container
+                .color_picker
+                    ul
+                        li(data-color="white").box_white.box
+                        li(data-color="black").box_black.box
+                        li(data-color="blue").box_blue.box
+                        li(data-color="green").box_green.box
+                        li(data-color="gold").box_gold.box
+                span.small.note choose a color
+        .container
+            input(type="text")
+            .keycode
+            .small.note *Select a key on our virtual keyboard or click any key in your keyboard to show its keycode! 
+            .keyboard
+                ul.row
+                        li.btn.margin_left-small(data-key = "27")
+                            .btn_inner.small.col-center Esc
+                        li.btn(data-key = "112")
+                            .btn_inner.small.col-center F1
+                        li.btn(data-key = "113")
+                            .btn_inner.small.col-center F2
+                        li.btn(data-key = "114")
+                            .btn_inner.small.col-center F3
+                        li.btn(data-key = "115").margin_left-small
+                            .btn_inner.small.col-center F4
+                        li.btn(data-key = "116")
+                            .btn_inner.small.col-center F5
+                        li.btn(data-key = "117")
+                            .btn_inner.small.col-center F6
+                        li.btn(data-key = "118")
+                            .btn_inner.small.col-center F7
+                        li.btn(data-key = "119").margin_left-small
+                            .btn_inner.small.col-center F8
+                        li.btn(data-key = "120")
+                            .btn_inner.small.col-center F9
+                        li.btn(data-key = "121")
+                            .btn_inner.small.col-center F10
+                        li.btn(data-key = "122")
+                            .btn_inner.small.col-center F11
+                        li.btn(data-key = "123")
+                            .btn_inner.small.col-center F12
+                ul.row
+                    li.btn(data-key = "192")
+                        .btn_inner.small 
+                            .shift ~
+                            | `
+                    li.btn(data-key = "49")
+                        .btn_inner.small
+                            .shift !
+                            | 1
+                    li.btn(data-key = "50")
+                        .btn_inner.small
+                            .shift @
+                            | 2
+                    li.btn(data-key = "51")
+                        .btn_inner.small
+                            .shift #
+                            | 3
+                    li.btn(data-key = "52")
+                        .btn_inner.small
+                            .shift $
+                            | 4
+                    li.btn(data-key = "53")
+                        .btn_inner.small
+                            .shift %
+                            | 5
+                    li.btn(data-key = "54")
+                        .btn_inner.small
+                            .shift ^
+                            | 6
+                    li.btn(data-key = "55")
+                        .btn_inner.small
+                            .shift &
+                            | 7
+                    li.btn(data-key = "56")
+                        .btn_inner.small
+                            .shift *
+                            | 8
+                    li.btn(data-key = "57")
+                        .btn_inner.small
+                            .shift (
+                            | 9
+                    li.btn(data-key = "48")
+                        .btn_inner.small
+                            .shift )
+                            | 0
+                    li.btn(data-key = "189")
+                        .btn_inner.small
+                            .shift __
+                            | -
+                    li.btn(data-key = "187")
+                        .btn_inner.small
+                            .shift +
+                            | =
+                    li.btn(data-key = "8").backspace.push_right
+                        .btn_inner.col-center.small Backspace
+                    li.btn(data-key = "45")
+                        .btn_inner.small.col-center insert
+                    li.btn(data-key = "36")
+                        .btn_inner.small.col-center home
+                    li.btn(data-key = "33")
+                        .btn_inner.small page up
+                ul.row
+                    li.btn(data-key = "9").tab
+                        .btn_inner.small.col-center Tab
+                    li.btn(data-key = "81")
+                        .btn_inner q
+                    li.btn(data-key = "87")
+                        .btn_inner w
+                    li.btn(data-key = "69")
+                        .btn_inner e
+                    li.btn(data-key = "82")
+                        .btn_inner r
+                    li.btn(data-key = "84")
+                        .btn_inner t
+                    li.btn(data-key = "89")
+                        .btn_inner y
+                    li.btn(data-key = "85")
+                        .btn_inner u
+                    li.btn(data-key = "73")
+                        .btn_inner i
+                    li.btn(data-key = "79")
+                        .btn_inner o
+                    li.btn(data-key = "80")
+                        .btn_inner p
+                    li.btn(data-key = "219")
+                        .btn_inner.small
+                            .shift {
+                            | [
+                    li.btn(data-key = "221")
+                        .btn_inner.small 
+                            .shift }
+                            | ]
+                    li.btn(data-key = "220").backslash.push_right
+                        .btn_inner.small
+                            .shift |
+                            | \
+                    li.btn(data-key = "46")
+                        .btn_inner.small.col-center delete
+                    li.btn(data-key = "35")
+                        .btn_inner.small.col-center end
+                    li.btn(data-key = "34")
+                        .btn_inner.small page down
+                ul.row
+                    li.btn(data-key = "20").capslock
+                        .btn_inner.small.col-center Caps Lock
+                    li.btn(data-key = "65")
+                        .btn_inner a
+                    li.btn(data-key = "83")
+                        .btn_inner s
+                    li.btn(data-key = "68")
+                        .btn_inner d
+                    li.btn(data-key = "70")
+                        .btn_inner f
+                    li.btn(data-key = "71")
+                        .btn_inner g
+                    li.btn(data-key = "72")
+                        .btn_inner h
+                    li.btn(data-key = "74")
+                        .btn_inner j
+                    li.btn(data-key = "75")
+                        .btn_inner k
+                    li.btn(data-key = "76")
+                        .btn_inner l
+                    li.btn(data-key = "186")
+                        .btn_inner.small
+                            .shift :
+                            | ;
+                    li.btn(data-key = "222")
+                        .btn_inner.small
+                            .shift "
+                            | '
+                    li.btn(data-key = "13").enter
+                        .btn_inner.small.col-center Enter
+                ul.row
+                    li.btn(data-key = "16").left_shift
+                        .btn_inner.small.col-center shift
+                    li.btn(data-key = "90")
+                        .btn_inner z
+                    li.btn(data-key = "88")
+                        .btn_inner x
+                    li.btn(data-key = "67")
+                        .btn_inner c
+                    li.btn(data-key = "86")
+                        .btn_inner v
+                    li.btn(data-key = "66")
+                        .btn_inner b
+                    li.btn(data-key = "78")
+                        .btn_inner n
+                    li.btn(data-key = "77")
+                        .btn_inner m
+                    li.btn(data-key = "188")
+                        .btn_inner.small
+                            .shift <
+                            | ,
+                    li.btn(data-key = "190")
+                        .btn_inner.small
+                            .shift >
+                            | .
+                    li.btn(data-key = "191")
+                        .btn_inner.small
+                            .shift ?
+                            | /
+                    li.btn(data-key = "16").right_shift.push_right
+                        .btn_inner.small.col-center Shift
+                    li.btn(data-key = "38").up_arrow
+                        .btn_inner.small.col-center.arr_up.arrow
+                            img(src="img/arrow.png", alt="")
+                ul.row
+                    li.btn(data-key = "17").ctrl
+                        .btn_inner.small.col-center control
+                    li.btn(data-key = "91")
+                        .btn_inner 
+                            img(src="img/windows.png", alt="")
+                    li.btn(data-key = "18")
+                        .btn_inner.small Alt
+                    li.btn(data-key = "32").space
+                        .btn_inner
+                    li.btn(data-key = "18")
+                        .btn_inner.small Alt
+                    li.btn(data-key = "92")
+                        .btn_inner 
+                            img(src="img/windows.png", alt="")
+                    li.btn(data-key = "17").ctrl_right.push_right
+                        .btn_inner.small.col-center control
+                    li.btn(data-key = "37")
+                        .btn_inner.small.col-center.arrow.arr_left
+                            img(src="img/arrow.png", alt="")
+                    li.btn(data-key = "40")
+                        .btn_inner.small.col-center.arrow.arr_down
+                            img(src="img/arrow.png", alt="")
+                    li.btn(data-key = "39")
+                        .btn_inner.small.col-center.arrow
+                            img(src="img/arrow.png", alt="")
+        footer
+            .container
+                p Created by <a href="">Robert Janagap</a>, get the codes at <a href="">Github</a>
+        script(src="jquery-2.1.4.min.js")
+        script(src="keycode_press.js")
+    
